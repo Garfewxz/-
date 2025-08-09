@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>คำร้องขอโอนย้ายสาขาวิชาต่างคณะ (มท 16)</title>
+    <style>
+        body {
+            font-family: 'TH Sarabun New', Arial, sans-serif;
+            font-size: 16pt;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 21cm;
+            min-height: 29.7cm;
+            margin: 20px auto;
+            padding: 2.5cm 2.5cm 1.5cm 2.5cm;
+            background-color: white;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header .doc-id {
+            position: absolute;
+            top: 2.5cm;
+            right: 2.5cm;
+            font-weight: bold;
+        }
+        .header img {
+            width: 60px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        .header h1 {
+            display: inline-block;
+            font-size: 20pt;
+            margin: 0;
+            font-weight: bold;
+        }
+        .header p {
+            margin: 2px 0;
+        }
+        .date-and-place {
+            text-align: right;
+            margin-top: -20px;
+            line-height: 1.5;
+        }
+        .date-and-place input {
+            border: none;
+            border-bottom: 1px dashed #000;
+            width: 150px;
+            text-align: center;
+            font-size: 16pt;
+        }
+        .form-section {
+            line-height: 1.8;
+        }
+        .form-section p {
+            margin: 5px 0;
+            text-indent: 0;
+        }
+        .form-section input[type="text"], .form-section select {
+            border: none;
+            border-bottom: 1px dashed #000;
+            font-size: 16pt;
+            padding: 2px;
+            width: auto;
+            background: none;
+        }
+        .form-section .checkbox-group label {
+            font-weight: normal;
+        }
+        .form-section ul {
+            list-style-type: none;
+            padding-left: 20px;
+            margin-top: 0;
+        }
+        .form-section ul li {
+            margin-bottom: 5px;
+        }
+        .signature-section {
+            text-align: right;
+            margin-top: 30px;
+            line-height: 2;
+        }
+        .signature-section .signature-line {
+            display: inline-block;
+            width: 250px;
+            border-bottom: 1px dashed #000;
+        }
+        .table-approval {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .table-approval th, .table-approval td {
+            border: 1px solid #000;
+            padding: 8px;
+            vertical-align: top;
+            text-align: left;
+            line-height: 1.5;
+        }
+        .table-approval th {
+            text-align: center;
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .table-approval .column-half {
+            width: 50%;
+        }
+        .table-approval .signature-table-line {
+            border-bottom: 1px dashed #000;
+            width: 80%;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        .table-approval .signature-table-text {
+            text-align: center;
+            margin-top: 5px;
+            display: block;
+        }
+        .footer-page {
+            text-align: right;
+            margin-top: 20px;
+            font-size: 12pt;
+        }
+        .note-section {
+            font-size: 12pt;
+            margin-top: 20px;
+            line-height: 1.5;
+        }
+        .note-section b {
+            font-weight: bold;
+        }
+        .page-break {
+            page-break-before: always;
+            margin-top: 20px;
+        }
+        .input-inline {
+            display: inline-block;
+            width: 150px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <div class="doc-id">มท 16</div>
+            <img src="https://upload.wikimedia.org/wikipedia/th/4/4c/Maejo_University_logo.png" alt="โลโก้มหาวิทยาลัยแม่โจ้">
+            <h1>คำร้องขอโอนย้ายสาขาวิชาต่างคณะ</h1>
+            <p>สำหรับหลักสูตร 4 ปี และหลักสูตร 4 ปีเทียบเข้าเรียน (2 ปี)</p>
+            <div class="date-and-place">
+                <p>เขียนที่ <input type="text" style="width: 200px;" value="มหาวิทยาลัยแม่โจ้"></p>
+                <p>วันที่ <input type="text" style="width: 50px;"> เดือน <input type="text" style="width: 100px;"> พ.ศ. <input type="text" style="width: 50px;"></p>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <p>เรื่อง ขอโอนย้ายสาขาวิชาต่างคณะ</p>
+            <p>เรียน <input type="text" style="width: 250px;"> คณบดีคณะ (คณะใหม่)</p>
+            <p>สิ่งที่ส่งมาด้วย <input type="text" style="width: 500px;" value="ใบรายงานผลการศึกษา"></p>
+            <p>ข้าพเจ้า <input type="checkbox"> นาย <input type="checkbox"> นาง <input type="checkbox"> นางสาว ชื่อ-นามสกุล <input type="text" style="width: 400px;"></p>
+            <p>รหัสศึกษา <input type="text" style="width: 150px;"> โทรศัพท์มือถือ <input type="text" style="width: 200px;"> ระบบ <input type="text" style="width: 100px;"></p>
+            <p>หลักสูตร <input type="checkbox"> 4 - 5 ปี <input type="checkbox"> 4 ปีเทียบเข้าเรียน (2ปี) ภาคปกติ <input type="checkbox"> ภาคสมทบ</p>
+            <p>สาขาวิชา <input type="text" style="width: 250px;"> คณะ <input type="text" style="width: 300px;"></p>
+            <p>มีความประสงค์จะขอโอนย้ายไปสาขาวิชา <input type="text" style="width: 300px;"> เนื่องจาก <input type="text" style="width: 300px;"></p>
+            <br>
+            <p>ทั้งนี้ ข้าพเจ้ามีคุณสมบัติครบถ้วนในการขอโอนย้ายสาขาวิชา ดังนี้ คือ</p>
+            <p><b>หลักสูตร 4 ปีเทียบเข้าเรียน (2ปี)</b></p>
+            <ul>
+                <li>ได้ศึกษาตามแผนการศึกษาในสาขาวิชาเดิมมาแล้วไม่น้อยกว่า <input type="text" class="input-inline" style="width: 50px;"> 1 ภาคการศึกษาปกติ</li>
+                <li>มีหน่วยกิตสะสมไม่น้อยกว่า <input type="text" class="input-inline" style="width: 50px;"> 18 หน่วยกิต และมีแต้มระดับคะแนนเฉลี่ยสะสมไม่น้อยกว่า <input type="text" class="input-inline" style="width: 50px;"> 2.00</li>
+            </ul>
+            <p><b>หลักสูตร 4 ปี</b></p>
+            <ul>
+                <li>ได้ศึกษาตามแผนการศึกษาในสาขาวิชาเดิมมาแล้วไม่น้อยกว่า <input type="text" class="input-inline" style="width: 50px;"> 2 ภาคการศึกษาปกติ</li>
+                <li>มีหน่วยกิตสะสมไม่น้อยกว่า <input type="text" class="input-inline" style="width: 50px;"> 30 หน่วยกิต และมีแต้มระดับคะแนนเฉลี่ยสะสมไม่น้อยกว่า <input type="text" class="input-inline" style="width: 50px;"> 2.00</li>
+            </ul>
+            <p>และยื่นคำร้องโอนย้ายสาขาวิชาภายในคณะก่อนวันที่ <input type="text" style="width: 150px;"></p>
+            <p>จึงเรียนมาเพื่อโปรดพิจารณาอนุมัติ</p>
+
+            <div class="signature-section">
+                <p>ขอแสดงความนับถือ</p>
+                <p>( <span class="signature-line"></span> )</p>
+                <p class="signature-text">นักศึกษา</p>
+            </div>
+        </div>
+
+        <table class="table-approval">
+            <thead>
+                <tr>
+                    <th class="column-half">ความเห็นชอบของสาขาวิชาเดิม</th>
+                    <th class="column-half">ความเห็นชอบของสาขาวิชาที่จะรับโอนย้าย</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="column-half">
+                        (2) ความเห็นอาจารย์ที่ปรึกษา
+                        <br><br><br>
+                        <span class="signature-table-line"></span>
+                        <span class="signature-table-text">อาจารย์ที่ปรึกษา</span>
+                        <span class="signature-table-text">วันที่.......... / .......... / 25..........</span>
+                    </td>
+                    <td class="column-half">
+                        (5) ความเห็นประธานกรรมการบริหารหลักสูตร
+                        <br><br><br>
+                        <span class="signature-table-line"></span>
+                        <span class="signature-table-text">ประธานกรรมการบริหารหลักสูตร</span>
+                        <span class="signature-table-text">วันที่.......... / .......... / 25..........</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="footer-page">
+            <p>มท 16 หน้า 1 <input type="checkbox"> หน้า 2</p>
+        </div>
+    </div>
+    
+    <div class="page-break"></div>
+
+    <div class="container">
+        <div class="header">
+            <div class="doc-id">มท 16 หน้า 2</div>
+        </div>
+        <table class="table-approval">
+            <thead>
+                <tr>
+                    <th class="column-half">ความเห็นชอบของสาขาวิชาเดิม</th>
+                    <th class="column-half">ความเห็นชอบของสาขาวิชาที่จะรับโอนย้าย</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="column-half">
+                        (3) ความเห็นประธานกรรมการบริหารหลักสูตร
+                        <br><br><br>
+                        <span class="signature-table-line"></span>
+                        <span class="signature-table-text">ประธานกรรมการบริหารหลักสูตร</span>
+                        <span class="signature-table-text">วันที่.......... / .......... / 25..........</span>
+                    </td>
+                    <td class="column-half">
+                        (6) ความเห็นคณบดีคณะ
+                        <br><br>
+                        <p><input type="checkbox"> อนุญาต <input type="checkbox"> ไม่อนุญาต</p>
+                        <br>
+                        <span class="signature-table-line"></span>
+                        <span class="signature-table-text">คณบดีคณะ</span>
+                        <span class="signature-table-text">วันที่.......... / .......... / 25..........</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="column-half">
+                        (4) ความเห็นคณบดีคณะ
+                        <br><br>
+                        <p><input type="checkbox"> เห็นชอบ <input type="checkbox"> ไม่เห็นชอบ</p>
+                        <br>
+                        <span class="signature-table-line"></span>
+                        <span class="signature-table-text">คณบดีคณะ</span>
+                        <span class="signature-table-text">วันที่.......... / .......... / 25..........</span>
+                    </td>
+                    <td class="column-half">
+                        (7) งานเงินได้ กองคลัง ชั้น 1 สำนักงานอธิการบดี<br>
+                        ได้รับชำระเงินจำนวน 500 บาท เป็นที่เรียบร้อยแล้ว<br>
+                        และได้ออกใบเสร็จรับเงินเล่มที่ <input type="text" style="width: 100px;"> เลขที่ <input type="text" style="width: 100px;"><br><br>
+                        <span class="signature-table-line"></span>
+                        <span class="signature-table-text">นักวิชาการเงินและบัญชี</span>
+                        <span class="signature-table-text">วันที่.......... / .......... / 25..........</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="column-half">
+                        (8) ความเห็นผู้อำนวยการสำนักบริหารและพัฒนาวิชาการ
+                        <br><br><br>
+                        <span class="signature-table-line"></span>
+                        <span class="signature-table-text">ผู้อำนวยการสำนักบริหารและพัฒนาวิชาการ</span>
+                        <span class="signature-table-text">วันที่.......... / .......... / 25..........</span>
+                    </td>
+                    <td class="column-half">
+                        (9) ความเห็นหัวหน้ากลุ่มภารกิจทะเบียนเรียน
+                        <br><br><br>
+                        <span class="signature-table-line"></span>
+                        <span class="signature-table-text">หัวหน้ากลุ่มภารกิจทะเบียนเรียน ประมวลผลฯ</span>
+                        <span class="signature-table-text">วันที่.......... / .......... / 25..........</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        (10) สำหรับเจ้าหน้าที่ดำเนินการ<br>
+                        ดำเนินการโอนย้ายสาขาวิชาเป็นที่เรียบร้อยแล้ว<br>
+                        รหัสนักศึกษาใหม่คือ <input type="text" style="width: 200px;"><br><br>
+                        <span class="signature-table-line"></span>
+                        <span class="signature-table-text">ตำแหน่ง: นักวิชาการศึกษา</span>
+                        <span class="signature-table-text">วันที่.......... / .......... / 25..........</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="note-section">
+            <p><b>หมายเหตุ :</b> การโอนย้ายสาขาวิชาภายในคณะและต่างคณะ จะกระทำได้ต่อเมื่อนักศึกษา</p>
+            <ul>
+                <li>ยื่นคำร้องจะขอโอนย้ายสาขาวิชาภายในคณะและต่างคณะได้เฉพาะในกลุ่มวิชาที่จะต้องเป็นที่กลุ่มภารกิจทะเบียนเรียนประมวลผลและรับเข้า</li>
+                <li>สำหรับปีการศึกษาที่จะขอโอนย้าย <b>ต้องมีเวลาเหลือในหลักสูตรที่ไม่ได้โอนย้ายไม่ต่ำกว่า 4 ปีการศึกษา</b></li>
+                <li>นักศึกษาที่ขอโอนย้ายสาขาวิชาต่างคณะ จะต้องมีระยะเวลาศึกษาในสาขาวิชาที่โอนย้ายเข้า ตามปีการศึกษาและมีสิทธิ์ขอรับปริญญา ดังนี้</li>
+                <li><b>หลักสูตร 4 ปี เทียบเข้าเรียน (2ปี)</b> จะต้องมีระยะเวลาศึกษาอยู่ในสาขาวิชาที่โอนย้ายเข้า ไม่น้อยกว่า 2 ภาคการศึกษาปกติ</li>
+                <li><b>หลักสูตร 4 ปี</b> จะต้องมีระยะเวลาศึกษาอยู่ในสาขาวิชาที่โอนย้ายเข้า <b>ไม่น้อยกว่า 4 ภาคการศึกษาปกติ</b></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
